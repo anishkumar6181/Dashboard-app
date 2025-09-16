@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cspm_executive_dashboard",
+    "name": "CSPM Executive Dashboard",
+    "keyName": "CSPM",
+    "widgets": [
+      {
+        "id": "cloud_accounts",
+        "name": "Cloud Accounts",
+        "content": "Connected: 2, Not Connected: 2",
+        "isVisible": true
+      },
+      {
+        "id": "cloud_account_risk_assessment",
+        "name": "Cloud Account Risk Assessment",
+        "content": "Failed: 1689, Warning: 681, Not available: 36, Passed: 7253",
+        "isVisible": true
+      },
+      {
+        "id": "top_5_compliance_issues",
+        "name": "Top 5 Compliance Issues",
+        "content": "Identity and Access Management: 45, Security Groups: 32, Network Configuration: 28, Data Encryption: 15, Logging and Monitoring: 12",
+        "isVisible": false
+      }
+    ]
+  },
+  {
+    "id": "cwpp_dashboard",
+    "name": "CWPP Dashboard",
+    "keyName": "CWPP",
+    "widgets": [
+      {
+        "id": "namespace_specific_alerts",
+        "name": "Top 5 Namespace Specific Alerts",
+        "content": "No Graph data available!",
+        "isVisible": true
+      },
+      {
+        "id": "workload_alerts",
+        "name": "Workload Alerts",
+        "content": "No Graph data available!",
+        "isVisible": true
+      },
+      {
+        "id": "container_security_status",
+        "name": "Container Security Status",
+        "content": "Secure: 156, Vulnerable: 23, Critical: 4, Unknown: 12",
+        "isVisible": false
+      },
+      {
+        "id": "runtime_protection",
+        "name": "Runtime Protection Status",
+        "content": "Protected Workloads: 89%, Threats Blocked: 234, Policy Violations: 12",
+        "isVisible": false
+      }
+    ]
+  },
+  {
+    "id": "registry_scan",
+    "name": "Registry Scan",
+    "keyName": "Registry",
+    "widgets": [
+      {
+        "id": "image_risk_assessment",
+        "name": "Image Risk Assessment",
+        "content": "Critical: 9, High: 150, Medium: 601, Low: 700",
+        "isVisible": true
+      },
+      {
+        "id": "image_security_issues",
+        "name": "Image Security Issues",
+        "content": "Critical: 2, High: 2, Medium: 2, Low: 2",
+        "isVisible": true
+      },
+      {
+        "id": "vulnerability_trends",
+        "name": "Vulnerability Trends",
+        "content": "This week: 45 new vulnerabilities discovered, 32 fixed, 13 pending review",
+        "isVisible": false
+      },
+      {
+        "id": "license_compliance",
+        "name": "License Compliance",
+        "content": "Compliant: 78%, Non-compliant: 15%, Unknown: 7%",
+        "isVisible": false
+      }
+    ]
+  },
+  {
+    "id": "threat_intelligence",
+    "name": "Threat Intelligence Dashboard",
+    "keyName": "Threat Intel",
+    "widgets": [
+      {
+        "id": "active_threats",
+        "name": "Active Threats",
+        "content": "High Priority: 5, Medium Priority: 12, Low Priority: 23",
+        "isVisible": false
+      },
+      {
+        "id": "threat_sources",
+        "name": "Threat Sources",
+        "content": "External: 67%, Internal: 28%, Unknown: 5%",
+        "isVisible": false
+      },
+      {
+        "id": "incident_response",
+        "name": "Incident Response Status",
+        "content": "Open Incidents: 8, In Progress: 15, Resolved Today: 23",
+        "isVisible": false
+      }
+    ]
+  }
+]
